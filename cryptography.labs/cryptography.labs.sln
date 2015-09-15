@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumber", "RandomNumber\RandomNumber.csproj", "{74B681E3-CD61-4EB7-9505-A8C2340CEBA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumber.Console", "RandomNumber\RandomNumber.Console.csproj", "{74B681E3-CD61-4EB7-9505-A8C2340CEBA1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib", "lib\lib.csproj", "{42D72F7A-E9D8-4A82-9CD1-16C5492039E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashingAlgorithms.Console", "HashingAlgorithms.Console\HashingAlgorithms.Console.csproj", "{0285F91D-D551-4E07-9EFD-71381CB3CDD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{42D72F7A-E9D8-4A82-9CD1-16C5492039E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42D72F7A-E9D8-4A82-9CD1-16C5492039E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42D72F7A-E9D8-4A82-9CD1-16C5492039E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0285F91D-D551-4E07-9EFD-71381CB3CDD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0285F91D-D551-4E07-9EFD-71381CB3CDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0285F91D-D551-4E07-9EFD-71381CB3CDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0285F91D-D551-4E07-9EFD-71381CB3CDD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
