@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HMAC.Console")]
+[assembly: AssemblyTitle("PBKDF2.Console")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("LPL Financial")]
-[assembly: AssemblyProduct("HMAC.Console")]
+[assembly: AssemblyProduct("PBKDF2.Console")]
 [assembly: AssemblyCopyright("Copyright © LPL Financial 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ec609dfb-73a9-43e6-8aa5-37516ae32e40")]
+[assembly: Guid("ac3f88ca-101d-4694-aa31-b7f81c5c9c59")]
 
 // Version information for an assembly consists of the following four values:
 //

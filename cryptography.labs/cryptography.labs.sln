@@ -11,6 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashingAlgorithms.Console",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMAC.Tests", "HMAC.Tests\HMAC.Tests.csproj", "{DBAF5609-842A-4150-86BF-335513A142A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{580E7280-D967-4811-90A6-06D1DEC42740}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Users\asgupta\Desktop\Showing the output in test results.png = ..\..\..\..\Users\asgupta\Desktop\Showing the output in test results.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBKDF2.Console", "PBKDF2.Console\PBKDF2.Console.csproj", "{AC3F88CA-101D-4694-AA31-B7F81C5C9C59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +40,10 @@ Global
 		{DBAF5609-842A-4150-86BF-335513A142A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBAF5609-842A-4150-86BF-335513A142A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBAF5609-842A-4150-86BF-335513A142A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3F88CA-101D-4694-AA31-B7F81C5C9C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3F88CA-101D-4694-AA31-B7F81C5C9C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3F88CA-101D-4694-AA31-B7F81C5C9C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3F88CA-101D-4694-AA31-B7F81C5C9C59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
