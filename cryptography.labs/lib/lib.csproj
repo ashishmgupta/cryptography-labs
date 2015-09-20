@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonHelper.cs" />
+    <Compile Include="HashHelper.cs" />
+    <Compile Include="HMACHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RNGCryptoServiceProviderClient.cs" />
     <Compile Include="SystemRandomClient.cs" />
