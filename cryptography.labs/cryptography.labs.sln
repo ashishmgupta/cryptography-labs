@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{580E7280
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBKDF2.Console", "PBKDF2.Console\PBKDF2.Console.csproj", "{AC3F88CA-101D-4694-AA31-B7F81C5C9C59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymmetricAlgorithms.Console", "SymmetricAlgorithms.Console\SymmetricAlgorithms.Console.csproj", "{806EE6CC-2404-4773-A87C-3C38D6E0BF8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{AC3F88CA-101D-4694-AA31-B7F81C5C9C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC3F88CA-101D-4694-AA31-B7F81C5C9C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC3F88CA-101D-4694-AA31-B7F81C5C9C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806EE6CC-2404-4773-A87C-3C38D6E0BF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806EE6CC-2404-4773-A87C-3C38D6E0BF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806EE6CC-2404-4773-A87C-3C38D6E0BF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806EE6CC-2404-4773-A87C-3C38D6E0BF8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
