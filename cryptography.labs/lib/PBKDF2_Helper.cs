@@ -34,8 +34,8 @@ namespace lib
    Remember, during the login process, you have to calculate the hash using the same process and compare the hash 
    with the stored hashed password in the database.
 
-    Related .NET class for this is Rfc2898DeriveBytes [System.Security.Cryptography]
-    Related Java class for this is PBKDF2WithHmacSHA1 
+        Related .NET class for this is Rfc2898DeriveBytes [System.Security.Cryptography]
+        Related Java class for this is PBKDF2WithHmacSHA1 
     */
     public class PBKDF2_Helper
     {

@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PasswordHashUsingPBKDF2.cs" />
     <Compile Include="SymmetricEncryption\AES_Helper.cs" />
     <Compile Include="CommonHelper.cs" />
     <Compile Include="HashHelper.cs" />

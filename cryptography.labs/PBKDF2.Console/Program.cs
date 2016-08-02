@@ -15,6 +15,7 @@ namespace PBKDF2.Console
         static void Main(string[] args)
         {
             salt = RNGCryptoServiceProviderClient.GenerateRandomNumber(32);
+            System.Console.WriteLine("Salt :" + CommonHelper.ConvertBytesToString(salt));
             GetHashedPassword(plainPassword, 10);
             GetHashedPassword(plainPassword, 50);
             GetHashedPassword(plainPassword, 100);
